@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+    <definition name="layout" template="/WEB-INF/jsp/layout.jsp">
+
+    </definition>
+
+    <definition name="login" extends="layout">
+        <put-attribute name="content" value="/WEB-INF/jsp/login.jsp"/>
+    </definition>
+
+    <definition name="profile" extends="layout">
+        <put-attribute name="content" value="/WEB-INF/jsp/profile.jsp"/>
+    </definition>
+
+    <definition name="notes" extends="layout">
+        <put-attribute name="content" value="/WEB-INF/jsp/notes.jsp"/>
+    </definition>
+
+    <definition name="note" extends="layout">
+        <put-attribute name="content" value="/WEB-INF/jsp/note.jsp"/>
+    </definition>
+
+</tiles-definitions>

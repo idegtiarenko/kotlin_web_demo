@@ -1,0 +1,100 @@
+body {
+    padding: 5px;
+    background-color: white;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+input {
+    border: solid 1px black;
+}
+input[type=text], input[type=password] {
+    width: 240px;
+}
+input[type=button], input[type=submit] {
+    border: solid 2px black;
+    font-weight: bold;
+}
+textarea {
+    width: 240px;
+    height: 140px;
+}
+button {
+    background: white;
+    font-weight: bold;
+    border: solid 2px black;
+}
+.header {
+    text-indent: 75px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 250%;
+}
+.footer {
+    text-align: center;
+}
+.menu {
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.menu .main {
+    float: left;
+}
+.menu .lang {
+    padding-right: 15px;
+}
+.content {
+    margin: 5px;
+    padding: 5px;
+    border-bottom: solid 2px black;
+}
+.add {
+    float: left;
+}
+.note {
+    border: solid 1px black;
+    font-style: italic;
+    display: inline-table;
+    width: 250px;
+    height: 200px;
+    overflow: visible;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.red {
+    background: red;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.note .title {
+    background: silver;
+    font-size: 125%;
+    padding: 5px;
+}
+.note .body {
+    padding: 5px;
+}
+.note .controls {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+.error {
+    color: red;
+    font-style: italic;
+}
